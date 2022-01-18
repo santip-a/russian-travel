@@ -1,0 +1,26 @@
+.cover__link {
+  background-image: url(../../../images/cover-trains.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 740px;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.cover__link:hover .cover__overlay {
+  opacity: .6;
+  transition: opacity .5s ease;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__link {
+    min-height: 200px;
+  }
+}
+
+

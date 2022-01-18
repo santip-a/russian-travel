@@ -1,0 +1,16 @@
+.intro__list {
+  margin: 0;
+  padding: 33px 0 0 0 ;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  list-style: none;
+}
+
+@media screen and (max-width: 320px) {
+  .класс {
+    padding-top: 34px;
+  }
+}
