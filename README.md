@@ -17,4 +17,4 @@
 
 **Ссылка на проект**
 
-[https://santip-a.github.io/russian-travel/]
+* https://santip-a.github.io/russian-travel/
