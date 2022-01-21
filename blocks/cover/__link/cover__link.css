@@ -11,8 +11,17 @@
   align-items: center;
 }
 
+.cover__link::after {
+  content: '';
+  background: #2A2C2F;
+  opacity: 0.3;
+  width: 100%;
+  min-height: 740px;
+  position: absolute;
+}
 
-.cover__link:hover .cover__overlay {
+
+.cover__link:hover:after {
   opacity: .6;
   transition: opacity .5s ease;
 }
@@ -34,5 +43,4 @@
     min-height: 200px;
   }
 }
-
 
