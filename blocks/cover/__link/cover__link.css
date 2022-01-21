@@ -4,11 +4,12 @@
   background-position: center;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  max-width: 1184px;
   min-height: 740px;
   text-decoration: none;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .cover__link::after {
@@ -16,7 +17,7 @@
   background: #2A2C2F;
   opacity: 0.3;
   width: 100%;
-  min-height: 740px;
+  height: 100%;
   position: absolute;
 }
 
@@ -38,9 +39,11 @@
   }
 }
 
+
 @media screen and (max-width: 425px) {
   .cover__link {
     min-height: 200px;
   }
 }
+
 
